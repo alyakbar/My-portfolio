@@ -36,11 +36,7 @@ A modern, responsive portfolio built with Next.js and Tailwind CSS to showcase y
    npm install
    ```
 
-3. **Configure environment variables:**
-   - Copy `.env.local.example` to `.env.local` and fill in your Resend API key and email settings.
-   - Get a free API key from [Resend](https://resend.com/).
-
-4. **Run the development server:**
+3. **Run the development server:**
    ```powershell
    npm run dev
    ```
@@ -48,7 +44,6 @@ A modern, responsive portfolio built with Next.js and Tailwind CSS to showcase y
 
 ## Contact Form Setup
 - The contact form sends submissions to your email using Resend.
-- Configure `RESEND_API_KEY` and `CONTACT_TO_EMAIL` in `.env.local`.
 - For production, verify your domain with Resend for custom sender addresses.
 
 ## Customization

@@ -6,13 +6,13 @@ import { Header } from '@/components/header';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'CodeFolioFlow | Aspiring Software Engineer',
-  description: 'A modern, responsive portfolio for an aspiring software engineer, built with Next.js and Framer Motion.',
+  title: 'Aly.Tech | Aspiring Computer Scientist',
+  description: 'A modern, responsive portfolio for an aspiring computer scientist, built with Next.js and Framer Motion.',
   openGraph: {
-    title: 'CodeFolioFlow | Aspiring Software Engineer',
-    description: 'A modern, responsive portfolio for an aspiring software engineer, built with Next.js and Framer Motion.',
+    title: 'Aly.Tech | Aspiring Computer Scientist',
+    description: 'A modern, responsive portfolio for an aspiring Computer Scientist, built with Next.js and Framer Motion.',
     url: 'https://your-domain.com',
-    siteName: 'CodeFolioFlow',
+    siteName: 'Aly.Tech',
     images: [
       {
         url: 'https://placehold.co/1200x630.png',
@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     ],
     locale: 'en-US',
     type: 'website',
+  },
+    icons: {
+    icon: "/Favicon.png", // or "/favicon.png"
   },
 };
 

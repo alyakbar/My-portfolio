@@ -99,7 +99,7 @@ export function Hero() {
           >
             <Button asChild size="lg" className="w-full sm:w-auto">
                 <Link
-                  href="/CV%20Of%20Alyakbar%20Sheikh.pdf"
+                  href="/CVOfAlyakbarSheikh.pdf"
                   download
                   style={{
                     backgroundColor: 'hsl(var(--accent-brown))',
@@ -114,7 +114,7 @@ export function Hero() {
                   onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'hsl(var(--accent-brown))')}
                 >
                   <FileText className="mr-2 h-5 w-5" />
-                  View CV
+                  View Resume
                 </Link>
             </Button>
             <Button asChild size="lg" variant="secondary" className="w-full sm:w-auto">
